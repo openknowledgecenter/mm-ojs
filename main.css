@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "tiresias_infofontregular";
+  src: url("tiresiasinfofont_regular_macroman/Tiresias_Infofont-webfont.eot");
+  src: url("tiresiasinfofont_regular_macroman/Tiresias_Infofont-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("tiresiasinfofont_regular_macroman/Tiresias_Infofont-webfont.woff")
+      format("woff"),
+    url("tiresiasinfofont_regular_macroman/Tiresias_Infofont-webfont.ttf")
+      format("truetype"),
+    url("tiresiasinfofont_regular_macroman/Tiresias_Infofont-webfont.svg#tiresias_infofontregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-size: 16px;
+  /* font-family: "tiresias_infofontregular", "Arial Narrow", Arial, sans-serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: "Open Sans", Arial, Helvetica, sans-serif; */
+  font-family: "Univers", Arial, Helvetica, sans-serif;
+  margin: 3em auto;
+  max-width: 40em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  line-height: 1.5em;
+  background-color: white;
+}
+
+.issue {
+  font-family: "Julius Sans One", Arial, Helvetica, sans-serif;
+}
+
+/* Smooth scrolling can be jarring or problematic, so there's a rule to disable
+based on the user's settings */
+/* This is also not supported in all desktop or mobile browsers, so represents
+different user experiences across devices. */
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  color: #444444;
+}
+
+main > h1 {
+  /* font-family: "Abel", Arial, Helvetica, sans-serif; */
+  font-family: "Glypha", Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 1.25em;
+}
+
+/* We're using this to target the authors, which are sibling p tag to the title header */
+h1 + p {
+  /* font-family: "Abel", Arial, Helvetica, sans-serif; */
+  font-family: "Glypha", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+figure {
+  margin: 2em auto;
+  max-width: 40em;
+  text-align: center;
+}
+
+figure > img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0.1em 0.1em 0.1em rgba(228, 233, 237, 1);
+}
+
+blockquote {
+  margin: 1em 0 1em 1.7em;
+  padding-left: 1em;
+  border-left: 2px solid #e6e6e6;
+  color: #606060;
+}
+
+/* Video container styling for responsive Youtub embed from:
+https://avexdesigns.com/blog/responsive-youtube-embed */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 601px) {
+  main,
+  header {
+    font-size: 1.25em;
+    line-height: 1.6875em; /* This provides the correct 1.5x line-height */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main,
+  header {
+    font-size: 1em;
+  }
+}
+
+/* From https://gomakethings.com/how-to-animate-scrolling-to-anchor-links-with-one-line-of-css/ */
+/**
+ * Disable smooth scrolling when users have prefers-reduced-motion enabled
+ */
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
