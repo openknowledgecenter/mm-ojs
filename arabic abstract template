@@ -42,6 +42,15 @@ type="text/css"
          line-height: .1em;
         }
   </style>
+<meta name="citation_title" content="Complete Title of Article">
+<meta name="citation_author" content="Last name, First Name">
+<meta name="citation_publication_date" content="Year/Month/Date">
+<meta name="citation_journal_title" content="Mashriq & Mahjar: Journal of Middle East and North African Migration Studies">
+<meta name="citation_volume" content="volume number">
+<meta name="citation_issue" content="issue numbeer">
+<meta name="citation_firstpage" content="first page number">
+<meta name="citation_lastpage" content="last page number">
+<meta name="citation_pdf_url" content="url link to published PDF">
 <body>
 <header>
 <div class="issue">
