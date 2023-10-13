@@ -20,6 +20,16 @@ rel="stylesheet"
 type="text/css"
     />
 <link rel="stylesheet" href="https://lebanesestudies.ojs.chass.ncsu.edu/public/site/article.css" />
+<meta name="citation_title" content="Complete Title of Article">
+<meta name="citation_author" content="Last name, First Name">
+<meta name="citation_publication_date" content="Year/Month/Date">
+<meta name="citation_journal_title" content="Mashriq & Mahjar: Journal of Middle East and North African Migration Studies">
+<meta name="citation_volume" content="volume number">
+<meta name="citation_issue" content="issue number">
+<meta name="citation_firstpage" content="first page number">
+<meta name="citation_lastpage" content="last page number">
+<meta name="citation_pdf_url" content="url link to published PDF">
+<meta name="description" content="A description of the page">
 </head>
   <style>
              
@@ -42,16 +52,6 @@ type="text/css"
          line-height: .1em;
         }
   </style>
-<meta name="citation_title" content="Complete Title of Article">
-<meta name="citation_author" content="Last name, First Name">
-<meta name="citation_publication_date" content="Year/Month/Date">
-<meta name="citation_journal_title" content="Mashriq & Mahjar: Journal of Middle East and North African Migration Studies">
-<meta name="citation_volume" content="volume number">
-<meta name="citation_issue" content="issue number">
-<meta name="citation_firstpage" content="first page number">
-<meta name="citation_lastpage" content="last page number">
-<meta name="citation_pdf_url" content="url link to published PDF">
-<body>
 <header>
 <div class="issue">
 <i>Mashriq & Mahjar</i> 9, no. 1 (2022)<br />
